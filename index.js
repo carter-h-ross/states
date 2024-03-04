@@ -203,7 +203,7 @@ Wyoming 90.35 0.87 2.26 0.84 0.1 5.58`
 
 let data = stringTo2DList(inputString);
 
-const todaysIndex = getCountryIndex("Iowa".toLowerCase());
+const todaysIndex = getCountryIndex("Maryland".toLowerCase());
 let scores = scoresList(todaysIndex);
 
 let guesses = [];
